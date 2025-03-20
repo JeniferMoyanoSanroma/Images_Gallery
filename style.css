@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+ 
+ *,
+ *:after,
+ *:before {
+ 	box-sizing: border-box;
+ }
+ 
+ :root {
+ 	--header-outer-height: 110px;
+ 	--header-inner-height: 70px;
+ 	--header-height-difference: calc(
+ 		var(--header-outer-height) - var(--header-inner-height)
+ 	);
+ 	--header-bg: #ffffff;
+ }
+
+header {
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: var(--header-bg);
+    box-shadow: 0 3px 3px 0 rgba(0,0,0, 0.1);
+    padding-bottom: 1px;
+}
+
+.header {
+    color: #000000;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 43px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    transition: transform 0.5s ease;
+}
+
+h1:hover {
+    transform: scale(1.1);
+}
+
+.galeria {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 280px;
+}
+
+section {
+    margin:1rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.img {
+    transition: transform 0.5s ease;
+}
+
+.img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 30px;
+}
+
+p {
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.copyright {
+    font-size: 20px;
+    color: #000000;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a {
+    font-size: 35px;
+    color: #000000;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+.social-icons .github:hover { 
+    color: #6e5494; 
+}
+
+.social-icons .gmail:hover { 
+    color: #d14836; 
+}
+
+.social-icons .linkedin:hover { 
+    color: #0077b5; 
+}
+
+.social-icons .instagram:hover { 
+    color: #e4405f; 
+}
+
+@media (max-width: 600px) {
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+}
