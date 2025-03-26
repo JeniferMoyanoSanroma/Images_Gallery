@@ -3,7 +3,10 @@ var modals = {
     "openOreja": document.getElementById("laorejadevangogh"),
     "openLinkin": document.getElementById("linkinpark"),
     "openCanto": document.getElementById("elcantodelloco"),
-    "openAvril": document.getElementById("avrillavigne")
+    "openAvril": document.getElementById("avrillavigne"),
+    "openPignoise": document.getElementById("pignoise"),
+    "openImagine": document.getElementById("imaginedragons"),
+    "openHombres": document.getElementById("loshombresg")
 };
 
 Object.keys(modals).forEach(btnId => {

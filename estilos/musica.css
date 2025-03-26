@@ -118,16 +118,6 @@ input[type="checkbox"]:checked ~ .dropdown {
     display: block;
 }
 
-body {
-    padding-top: 80px;
-}
-
-article {
-    font-size: 21px;
-    margin: 40px;
-    margin-top: 10px;
-}
-
 h3 {
     text-align: center;
     font-size: 30px;
@@ -135,10 +125,10 @@ h3 {
 }
 
 .galeria {
+    padding-top: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding-top: 30px;
 }
 
 img {
@@ -244,7 +234,7 @@ h2 {
 }
 
 .info {
-    font-size: 12.9px;
+    font-size: 11px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
