@@ -6,7 +6,15 @@ var modals = {
     "openAvril": document.getElementById("avrillavigne"),
     "openPignoise": document.getElementById("pignoise"),
     "openImagine": document.getElementById("imaginedragons"),
-    "openHombres": document.getElementById("loshombresg")
+    "openHombres": document.getElementById("loshombresg"),
+    "openRBD": document.getElementById("rbd"),
+    "openBritney": document.getElementById("britneyspears"),
+    "openBackstreet": document.getElementById("backstreetboys"),
+    "openBruno": document.getElementById("brunomars"),
+    "openCamila": document.getElementById("camilacabello"),
+    "openLady": document.getElementById("ladygaga"),
+    "openRihanna": document.getElementById("rihanna"),
+    "openWeeknd": document.getElementById("theweeeknd")
 };
 
 Object.keys(modals).forEach(btnId => {
