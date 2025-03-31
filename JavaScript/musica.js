@@ -14,7 +14,7 @@ var modals = {
     "openCamila": document.getElementById("camilacabello"),
     "openLady": document.getElementById("ladygaga"),
     "openRihanna": document.getElementById("rihanna"),
-    "openWeeknd": document.getElementById("theweeeknd")
+    "openWeeknd": document.getElementById("theweeknd")
 };
 
 Object.keys(modals).forEach(btnId => {
@@ -32,4 +32,4 @@ document.querySelectorAll(".modal").forEach(modal => {
             modal.style.display = "none";
         }
     };
-});
+}); 
