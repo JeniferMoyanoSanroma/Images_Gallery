@@ -14,7 +14,15 @@ var modals = {
     "openCamila": document.getElementById("camilacabello"),
     "openLady": document.getElementById("ladygaga"),
     "openRihanna": document.getElementById("rihanna"),
-    "openWeeknd": document.getElementById("theweeknd")
+    "openWeeknd": document.getElementById("theweeknd"),
+    "openPaulo": document.getElementById("paulolondra"),
+    "openCazzu": document.getElementById("cazzu"),
+    "openNicki": document.getElementById("nickinicole"),
+    "openTrueno": document.getElementById("trueno"),
+    "openKhea": document.getElementById("khea"),
+    "openDuki": document.getElementById("duki"),
+    "openArcangel": document.getElementById("arcangel"),
+    "openMyke": document.getElementById("myketowers")
 };
 
 Object.keys(modals).forEach(btnId => {
